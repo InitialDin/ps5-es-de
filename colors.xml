@@ -1,11 +1,13 @@
 <theme>
     	
-    <colorScheme name="mediavideo,mediascreenshot,mediavideo-audio,nomedia,backgroundvideo,">
+    <colorScheme name="mediavideo,mediascreenshot,mediavideo-audio,nomedia,backgroundvideo,backgroundvideo-screenshot">
         <variables>
+        	<background>4C4C4C</background>
             <white>FFFFFF</white>
             <black>000000</black>
             <grey>7C7C7C</grey>
-            <greyUnfocused>8C8C8C</greyUnfocused>
+            <greyUnfocused>A3A3A3</greyUnfocused>
+            <divider>83838388</divider>
             <online>3BE795</online>
         </variables>
     </colorScheme>
@@ -13,51 +15,66 @@
     <colorScheme name="mediavideo">
         <variables>
             <showMediaVideo>true</showMediaVideo>
-            <showBackgroundVideo>false</showBackgroundVideo>
-            <showBackgroundArt>true</showBackgroundArt>
             <showMediaScreenshot>false</showMediaScreenshot>
             <playAudioOnly>0.830 0.730</playAudioOnly>
+            <showBackgroundVideo>false</showBackgroundVideo>
+            <showBackgroundArt>true</showBackgroundArt>
+            <systemVideoAudio>true</systemVideoAudio>
         </variables>
     </colorScheme>
     
     <colorScheme name="mediascreenshot">
         <variables>
             <showMediaVideo>false</showMediaVideo>
-            <showBackgroundVideo>false</showBackgroundVideo>
-            <showBackgroundArt>true</showBackgroundArt>
             <showMediaScreenshot>true</showMediaScreenshot>
             <playAudioOnly>0.830 0.730</playAudioOnly>
+            <showBackgroundVideo>false</showBackgroundVideo>
+            <showBackgroundArt>true</showBackgroundArt>
+            <systemVideoAudio>false</systemVideoAudio>
         </variables>
     </colorScheme>
     
     <colorScheme name="mediavideo-audio">
         <variables>
             <showMediaVideo>true</showMediaVideo>
-            <showBackgroundVideo>false</showBackgroundVideo>
-            <showBackgroundArt>true</showBackgroundArt>
             <showMediaScreenshot>false</showMediaScreenshot>
             <playAudioOnly>999 999</playAudioOnly>
+            <showBackgroundVideo>false</showBackgroundVideo>
+            <showBackgroundArt>true</showBackgroundArt>
+            <systemVideoAudio>false</systemVideoAudio>
         </variables>
     </colorScheme>
     
     <colorScheme name="nomedia">
         <variables>
             <showMediaVideo>false</showMediaVideo>
-            <showBackgroundVideo>false</showBackgroundVideo>
-            <showBackgroundArt>true</showBackgroundArt>
             <showMediaScreenshot>false</showMediaScreenshot>
             <playAudioOnly>0.830 0.730</playAudioOnly>
+            <showBackgroundVideo>false</showBackgroundVideo>
+            <showBackgroundArt>true</showBackgroundArt>
+            <systemVideoAudio>false</systemVideoAudio>
         </variables>
     </colorScheme>
     
     <colorScheme name="backgroundvideo">
         <variables>
             <showMediaVideo>false</showMediaVideo>
-            <showBackgroundVideo>true</showBackgroundVideo>
-            <showBackgroundArt>false</showBackgroundArt>
             <showMediaScreenshot>false</showMediaScreenshot>
             <playAudioOnly>0.830 0.730</playAudioOnly>
+            <showBackgroundVideo>true</showBackgroundVideo>
+            <showBackgroundArt>false</showBackgroundArt>
+            <systemVideoAudio>true</systemVideoAudio>
         </variables>
     </colorScheme>
     
+    <colorScheme name="backgroundvideo-screenshot">
+        <variables>
+            <showMediaVideo>false</showMediaVideo>
+            <showMediaScreenshot>true</showMediaScreenshot>
+            <playAudioOnly>0.830 0.730</playAudioOnly>
+            <showBackgroundVideo>true</showBackgroundVideo>
+            <showBackgroundArt>false</showBackgroundArt>
+            <systemVideoAudio>true</systemVideoAudio>
+        </variables>
+    </colorScheme>
 </theme>
