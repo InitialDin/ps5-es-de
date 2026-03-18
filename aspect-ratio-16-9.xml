@@ -48,6 +48,14 @@
             <pos>0.076 0.815</pos>
             <size>0.285 0.0621</size>
         </image>
+        <image name="media-screenshot">
+        	<pos>0.830 0.730</pos>
+        	<maxSize>0.250 0.3250</maxSize>
+            </image>
+            <video name="media-video">
+            <pos>${playAudioOnly}</pos>
+            <cropSize>0.250 0.3250</cropSize>
+        </video>
         <image name="avatar-icon">
             <pos>0.830 0.050</pos>
             <maxSize>0.050 0.050</maxSize>
@@ -81,8 +89,17 @@
             <pos>0.2530 0.815</pos>
             <size>0.0016 0.0611</size>
         </image>
+        <image name="system-lastplayed-icon">
+            <pos>0.110 0.715</pos>
+            <size>0 0.0310</size>
+        </image>
+        <text name="system-lastplayed">
+            <pos>0.300 0.710</pos>
+            <size>0.350 0.0695</size>
+            <fontSize>${metadataFontSize}</fontSize>
+        </text>
         <image name="system-marquee">
-                <pos>0.215 0.600</pos>
+                <pos>0.210 0.600</pos>
                 <maxSize>0.230 0.150</maxSize>
             </image>
     </view>
@@ -145,18 +162,15 @@
             <itemMargin>0.008 0</itemMargin>
             <pos>0.035 0.785</pos>
         </badges>
+        <text name="gamelist-genre-name">
+            <pos>0.220 0.710</pos>
+            <size>0.350 0.0695</size>
+            <fontSize>${metadataFontSize}</fontSize>
+        </text>
         <image name="game-marquee">
-                <pos>0.215 0.600</pos>
-                <maxSize>0.230 0.250</maxSize>
+                <pos>0.215 0.575</pos>
+                <maxSize>0.230 0.225</maxSize>
             </image>
-        <image name="gamelist-media-screenshot">
-        	<pos>0.830 0.730</pos>
-        	<maxSize>0.250 0.3250</maxSize>
-            </image>
-            <video name="gamelist-media-video">
-            <pos>${playAudioOnly}</pos>
-            <cropSize>0.250 0.3250</cropSize>
-        </video>
     </view>
     
 </theme>
