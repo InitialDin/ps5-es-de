@@ -244,18 +244,6 @@
             <visible>${showBackgroundArt}</visible>
             <zIndex>2</zIndex>
         </image>
-        <image name="gamelist-carousel-selector">
-            <gameselectorEntry>1</gameselectorEntry>
-            <origin>0.5 0.5</origin>
-            <color>${white}</color>
-            <zIndex>50</zIndex>
-        </image>
-        <image name="gamelist-carousel-item-glow">
-            <origin>0.5 0.5</origin>
-            <path>./_inc/images/selector-item-glow.webp</path>
-            <color>${white}</color>
-            <zIndex>10</zIndex>
-        </image>
         <text name="system-tab">
             <color>${greyUnfocused}</color>
             <fontPath>${fontLight}</fontPath>
@@ -276,6 +264,7 @@
             <defaultValue>:space:</defaultValue>
             <container>true</container>
             <containerType>horizontal</containerType>
+			<horizontalAlignment>center</horizontalAlignment>
             <containerScrollSpeed>0.7</containerScrollSpeed>
             <containerStartDelay>2</containerStartDelay>
             <fontPath>${fontMedium}</fontPath>
