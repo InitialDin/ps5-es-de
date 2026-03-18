@@ -21,10 +21,18 @@
             <imageType>cover</imageType>
             <imageFit>cover</imageFit>
             <imageCornerRadius>0.010</imageCornerRadius>
-            <fastScrolling>false</fastScrolling>
+            <fastScrolling>true</fastScrolling>
             <color>00000000</color>
             <zIndex>40</zIndex>
         </carousel>
+        <image name="background-wallpaper">
+        	<origin>0 0</origin>
+        	<pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <color>${background}</color>
+            <path>./customizations/background.png</path>
+         <zIndex>1</zIndex>
+      </image>
         <systemstatus name="system-status">
         	<origin>1 0.5</origin>
             <fontPath>${fontLight}</fontPath>
@@ -50,7 +58,7 @@
             <container>true</container>
             <containerType>horizontal</containerType>
             <fontPath>${fontLight}</fontPath>
-            <opacity>0.8</opacity>
+            <opacity>0.9</opacity>
             <color>${white}</color>
             <zIndex>40</zIndex>
         </text>
@@ -69,12 +77,33 @@
             <opacity>0.5</opacity>
             <zIndex>52</zIndex>
         </image>
+        <video name="media-video">
+            <origin>0.5 0.5</origin>
+            <iterationCount>0</iterationCount>
+            <interpolation>nearest</interpolation>
+            <imageCornerRadius>0.010</imageCornerRadius>
+            <videoCornerRadius>0.010</videoCornerRadius>
+            <fadeInType>black</fadeInType>
+            <fadeInTime>0.5</fadeInTime>
+            <imageType>none</imageType>
+            <delay>1</delay>
+            <zIndex>21</zIndex>
+            <visible>${showMediaVideo}</visible>
+            <zIndex>23</zIndex>
+        </video>
+        <image name="media-screenshot">
+        	<origin>0.5 0.5</origin>
+        	<imageType>screenshot</imageType>
+        	<cornerRadius>0.010</cornerRadius>
+        	<visible>${showMediaScreenshot}</visible>
+        	<zIndex>24</zIndex>
+        	</image>
         <helpsystem name="help-menu">
          <scope>menu</scope>
       </helpsystem>
         <image name="avatar-icon">
             <origin>0.5 0.5</origin>
-            <path>./_inc/images/avatar.png</path>
+            <path>./customizations/avatar.png</path>
             <cornerRadius>0.0188</cornerRadius> 
             <zIndex>30</zIndex>
         </image>
@@ -92,19 +121,32 @@
         	<text name="system-games-name">
         		<systemdata>fullname</systemdata>
         </text>
-        <image name="background-game-art">
-        	<origin>0 0</origin>
-        	<pos>0 0</pos>
-            <cropSize>1 1</cropSize>
-            <imageType>fanart, screenshot</imageType>
-            <scrollFadeIn>true</scrollFadeIn>
-            <opacity>0.3</opacity>
-        	<gameselector>system-background-selector</gameselector>
-         <zIndex>2</zIndex>
-      </image>
-      <gameselector name="system-background-selector">
-         <selection>random</selection>
-      </gameselector>
+        <image name="system-lastplayed-icon">
+            <origin>0.5 0</origin>
+            <path>./_inc/images/icon-lastplayed.svg</path>
+            <color>${white}</color>
+            <zIndex>40</zIndex>
+        </image>
+        <text name="system-lastplayed">
+        	<origin>0.5 0</origin>
+            <metadata>name</metadata>
+            <systemNameSuffix>false</systemNameSuffix>
+            <container>true</container>
+            <horizontalAlignment>left</horizontalAlignment>
+            <fontPath>${fontLight}</fontPath>
+            <opacity>0.9</opacity>
+            <color>${white}</color>
+            <zIndex>40</zIndex>
+        </text>
+        <video name="media-video">
+            <gameselector>system-media-selector</gameselector>
+        </video>
+        <image name="media-screenshot">
+        	<gameselector>system-media-selector</gameselector>
+        </image>
+        <gameselector name="system-media-selector">
+            <selection>lastplayed</selection>
+        </gameselector>
         <image name="system-gamecount-icon">
             <origin>0 0.5</origin>
             <path>./_inc/images/icon-controller.svg</path>
@@ -138,7 +180,7 @@
             <origin>0 0.5</origin>
             <path>${spaceImage}</path>
             <tile>true</tile>
-            <color>${grey}</color>
+            <color>${divider}</color>
             <zIndex>52</zIndex>
         </image>
         <image name="system-marquee">
@@ -146,6 +188,9 @@
         	<path>./_inc/system/marquees/${system.theme}.svg</path>
         	<zIndex>24</zIndex>
         	</image>
+        	<video name="media-video">
+            <audio>${systemVideoAudio}</audio>
+        </video>
         <text name="system-tab">
             <color>${white}</color>
             <fontPath>${fontMedium}</fontPath>
@@ -161,18 +206,30 @@
             <systemNameSuffix>false</systemNameSuffix>
             <metadata>name</metadata>
         </text>
+        <text name="gamelist-genre-name">
+        	<origin>0.5 0</origin>
+            <metadata>genre</metadata>
+            <defaultValue>:space:</defaultValue>
+            <container>true</container>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <fontPath>${fontLight}</fontPath>
+            <opacity>0.9</opacity>
+            <color>${white}</color>
+            <zIndex>40</zIndex>
+        </text>
         <video name="gamelist-background-video">
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
             <origin>0 0</origin>
-            <imageType>fanart, screenshot</imageType>
+            <imageType>fanart,screenshot</imageType>
             <iterationCount>0</iterationCount>
             <audio>true</audio>
             <interpolation>nearest</interpolation>
             <delay>2</delay>
             <fadeInType>transparent</fadeInType>
             <fadeInTime>0.5</fadeInTime>
-            <opacity>0.3</opacity>
+            <color>${background}</color>
             <scrollFadeIn>true</scrollFadeIn>
             <visible>${showBackgroundVideo}</visible>
             <zIndex>2</zIndex>
@@ -181,9 +238,9 @@
             <origin>0 0</origin>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
-            <imageType>fanart, screenshot</imageType>
+            <imageType>fanart,screenshot</imageType>
             <scrollFadeIn>true</scrollFadeIn>
-            <opacity>0.3</opacity>
+            <color>${background}</color>
             <visible>${showBackgroundArt}</visible>
             <zIndex>2</zIndex>
         </image>
@@ -199,10 +256,6 @@
             <color>${white}</color>
             <zIndex>10</zIndex>
         </image>
-        <image name="gamelist-carousel-selector">
-                <path>./_inc/images/selector-square-item.svg</path>
-                <opacity>0.7</opacity>
-            </image>
         <text name="system-tab">
             <color>${greyUnfocused}</color>
             <fontPath>${fontLight}</fontPath>
@@ -269,14 +322,14 @@
             <origin>0 0.5</origin>
             <path>${spaceImage}</path>
             <tile>true</tile>
-            <color>${grey}</color>
+            <color>${divider}</color>
             <zIndex>52</zIndex>
         </image>
         <image name="gamelist-metadata-middle-divider">
             <origin>0 0.5</origin>
             <path>${spaceImage}</path>
             <tile>true</tile>
-            <color>${grey}</color>
+            <color>${divider}</color>
             <zIndex>52</zIndex>
         </image>
         <badges name="gamelist-badges-right">
@@ -308,27 +361,6 @@
         	<imageType>marquee</imageType>
         	<zIndex>24</zIndex>
         	</image>
-        <image name="gamelist-media-screenshot">
-        	<origin>0.5 0.5</origin>
-        	<imageType>screenshot</imageType>
-        	<cornerRadius>0.010</cornerRadius>
-        	<visible>${showMediaScreenshot}</visible>
-        	<zIndex>24</zIndex>
-        	</image>
-        <video name="gamelist-media-video">
-            <origin>0.5 0.5</origin>
-            <iterationCount>0</iterationCount>
-            <interpolation>nearest</interpolation>
-            <imageCornerRadius>0.010</imageCornerRadius>
-            <videoCornerRadius>0.010</videoCornerRadius>
-            <fadeInType>black</fadeInType>
-            <fadeInTime>0.5</fadeInTime>
-            <imageType>none</imageType>
-            <delay>2</delay>
-            <zIndex>21</zIndex>
-            <visible>${showMediaVideo}</visible>
-            <zIndex>23</zIndex>
-        </video>
     </view>
     
     <view name="all">
