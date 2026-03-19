@@ -14,7 +14,7 @@ A recreation of the PS5's menu screen for ES-DE (EmulationStation Desktop Editio
 * `Theme Color Scheme` - This lets you pick what you want to see on your system and gamelist view
   * `Media Video` - Displays your scraped game videos on the right (system and gamelist view)
   * `Media Screenshot` - Displays your scraped game screenshots on the right (system and gamelist view)
-  * `Media Video (Audio Only)` - Plays only the audio of your scraped game video, meant to replicate the PS5 game themes menu music (gamelist view)
+  * `Media Video (Audio Only)` - Plays only the audio of your scraped game video, meant to replicate the PS5 game menu theme music (gamelist view)
   * `No Media` - Doesn't display any media on your system and gamelist view
   * `Background Video` - Displays your scraped game videos on the background (gamelist view)
   * `Background Video (with Screenshot)` - Displays your scraped game videos on the background with your screenshots on the right (gamelist view)
@@ -42,7 +42,7 @@ You can replace the Avatar and Wallpaper with your own images by replacing the `
 
 * UI sounds and wallpaper from Sony's PlayStation 5
 
-* System Icons from Siddy212's Canvas Theme with some edits by me
+* System icons from Siddy212's Canvas Theme with some edits by me
 (https://github.com/Siddy212/canvas-es-de/)
 
 * Metadata icons from J. Armend's Oasis Theme with some edits by me
