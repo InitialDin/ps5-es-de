@@ -3,11 +3,21 @@ A recreation of the PS5's menu screen for ES-DE (EmulationStation Desktop Editio
 
 Currently only supports **16:9** and **20:9** aspect ratio devices.
 
-<h2>Update 0.1.2</h2>
+<h2>Preview</h2>
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/41dd67d2-a385-4bcc-83fb-97dbcdb4e784" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/94aafecd-a30f-477f-9d47-9ca19ca750e3" />
+
+<h2>Update (v0.1.3)</h2>
+
+* Cropped and resized all system icons for a better fit and to reduce file size
+
+* Added and improved all system marquee images
+
+<h2>Update (v0.1.2)</h2>
 
 * Added 20:9 aspect ratio support
 
-<h2>Update 0.1.1</h2>
+<h2>Update (v0.1.1)</h2>
 
 * Added icon for missing collections (completed, now-playing)
   
@@ -15,7 +25,7 @@ Currently only supports **16:9** and **20:9** aspect ratio devices.
   
 * Added fallback images to system and gamelist
 
-<h2>Update 0.1.0</h2>
+<h2>Update (v0.1.0)</h2>
   
 * Added new variant "Background Video (with Screenshot)"
 
@@ -28,7 +38,3 @@ Currently only supports **16:9** and **20:9** aspect ratio devices.
 * Removed "Last Played" game background in System List and replaced with a static wallpaper
 
 * Moved avatar.png and background.png to "customization" folder to avoid being replaced when theme is updated via ES-DE
-
-<h2>Preview</h2>
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/41dd67d2-a385-4bcc-83fb-97dbcdb4e784" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/94aafecd-a30f-477f-9d47-9ca19ca750e3" />
