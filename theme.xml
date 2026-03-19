@@ -13,8 +13,8 @@
     <view name="system, gamelist">
         <carousel name="system-carousel,gamelist-carousel">
             <origin>0 0</origin>
-            <defaultImage>./_inc/images/_default_game.svg</defaultImage>
-            <defaultFolderImage>./_inc/images/_default_folder.svg</defaultFolderImage>
+            <defaultImage>./_inc/system/icons/_default_game.webp</defaultImage>
+            <defaultFolderImage>./_inc/system/icons/_default_sys.webp</defaultFolderImage>
             <staticImage>./_inc/system/icons/${system.theme}.webp</staticImage>
             <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
             <unfocusedItemDimming>0.7</unfocusedItemDimming>
