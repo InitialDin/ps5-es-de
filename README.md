@@ -38,3 +38,18 @@ Currently only supports **16:9** and **20:9** aspect ratio devices.
 * Removed "Last Played" game background in System List and replaced with a static wallpaper
 
 * Moved avatar.png and background.png to "customization" folder to avoid being replaced when theme is updated via ES-DE
+
+<h2>Credits</h2>
+
+* Inspired by the design of the PlayStation 5's menu made by Sony
+
+* UI sounds and wallpaper from Sony's PlayStation 5
+
+* System icons from Siddy212's Canvas Theme with some edits by me
+(https://github.com/Siddy212/canvas-es-de/)
+
+* Metadata icons from J. Armend's Oasis Theme with some edits by me
+(https://gitlab.com/jarmend/oasis-es-de)
+
+<h2>License</h2>
+Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/ You are free to share and adapt this theme as long as you provide attribution back to me (and the above credits) as well share any updates you make under the same licence terms.
