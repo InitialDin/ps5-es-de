@@ -4,8 +4,6 @@
     <include>./fonts.xml</include>
     <include>./_inc/system/metadata/_default.xml</include>
     <include>./_inc/system/metadata/${system.theme}.xml</include>
-    <include>./aspect-ratio-16-9.xml</include>
-	<include>./aspect-ratio-20-9.xml</include>
     
     <variables>
         <spaceImage>./_inc/images/space.svg</spaceImage>
@@ -253,13 +251,13 @@
             <color>${white}</color>
             <fontPath>${fontMedium}</fontPath>
         </text>
-        <image name="gamelist-gamedata-pill-players-icon">
+        <image name="gamelist-metadata-players-icon">
             <origin>0 0.5</origin>
             <path>./_inc/images/icon-players.svg</path>
             <color>${white}</color>
             <zIndex>60</zIndex>
         </image>
-        <text name="gamelist-gamedata-pill-players">
+        <text name="gamelist-metadata-players">
             <origin>0 0.5</origin>
             <metadata>players</metadata>
             <defaultValue>:space:</defaultValue>
@@ -272,13 +270,13 @@
             <color>${white}</color>
             <zIndex>60</zIndex>
         </text>
-        <image name="gamelist-gamedata-pill-playcount-icon">
+        <image name="gamelist-metadata-playcount-icon">
             <origin>0 0.5</origin>
             <path>./_inc/images/icon-playcount.svg</path>
             <color>${white}</color>
             <zIndex>60</zIndex>
         </image>
-        <text name="gamelist-gamedata-pill-playcount">
+        <text name="gamelist-metadata-playcount">
             <origin>0 0.5</origin>
             <metadata>playcount</metadata>
             <defaultValue>0</defaultValue>
@@ -290,13 +288,13 @@
             <color>${white}</color>
             <zIndex>60</zIndex>
         </text>
-        <image name="gamelist-gamedata-pill-playtime-icon">
+        <image name="gamelist-metadata-playtime-icon">
             <origin>0 0.5</origin>
             <path>./_inc/images/icon-playtime.svg</path>
             <color>${white}</color>
             <zIndex>60</zIndex>
         </image>
-        <text name="gamelist-gamedata-pill-playtime">
+        <text name="gamelist-metadata-playtime">
             <origin>0 0.5</origin>
             <metadata>playtime</metadata>
             <defaultValue>0 minute</defaultValue>
@@ -352,7 +350,14 @@
         	<zIndex>24</zIndex>
         	</image>
     </view>
-    
+
+	<aspectRatio name="16:9">
+      <include>./aspect-ratio-16-9.xml</include>
+   </aspectRatio>
+   <aspectRatio name="20:9">
+      <include>./aspect-ratio-20-9.xml</include>
+   </aspectRatio>
+	
     <view name="all">
       <sound name="systembrowse">
          <path>./_inc/sounds/systembrowse.wav</path>
