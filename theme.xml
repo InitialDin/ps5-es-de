@@ -5,6 +5,7 @@
     <include>./_inc/system/metadata/_default.xml</include>
     <include>./_inc/system/metadata/${system.theme}.xml</include>
     <include>./aspect-ratio-16-9.xml</include>
+	<include>./aspect-ratio-20-9.xml</include>
     
     <variables>
         <spaceImage>./_inc/images/space.svg</spaceImage>
