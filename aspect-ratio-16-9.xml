@@ -164,6 +164,11 @@
             <size>0.745 0.0695</size>
             <fontSize>${carouselTitleFontSize}</fontSize>
         </text>
+        <text name="gamelist-system-name">
+            <pos>0.241 0.282</pos>
+            <size>0.745 0.0695</size>
+            <fontSize>${metadataFontSize}</fontSize>
+        </text>
         </view>
    </variant>
    
@@ -182,13 +187,18 @@
             <itemSize>0.095 0.175</itemSize>
         </carousel>
         <image name="gamesystem-logo">
-            <pos>0.233 0.335</pos>
+            <pos>0.233 0.319</pos>
             <maxSize>0.09 0.09</maxSize>
         </image>
         <text name="system-games-name">
-            <pos>0.288 0.301</pos>
+            <pos>0.289 0.284</pos>
             <size>0.695 0.0695</size>
             <fontSize>${carouselTitleFontSizeLarge}</fontSize>
+        </text>
+        <text name="gamelist-system-name">
+            <pos>0.290 0.337</pos>
+            <size>0.695 0.0695</size>
+            <fontSize>${metadataFontSizeLarge}</fontSize>
         </text>
         </view>
    </variant>

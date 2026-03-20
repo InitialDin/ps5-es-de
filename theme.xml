@@ -19,6 +19,7 @@
             <carouselTitleFontSize>0.0360</carouselTitleFontSize>
             <carouselTitleFontSizeLarge>0.0520</carouselTitleFontSizeLarge>
             <metadataFontSize>0.0280</metadataFontSize>
+            <metadataFontSizeLarge>0.0410</metadataFontSizeLarge>
         </variables>
     </fontSize>
     
@@ -227,6 +228,16 @@
             <fontPath>${fontLight}</fontPath>
             <opacity>0.9</opacity>
             <color>${white}</color>
+            <zIndex>40</zIndex>
+        </text>
+        <text name="gamelist-system-name">
+        	<origin>0 0</origin>
+            <metadata>sourceSystemFullname</metadata>
+            <container>true</container>
+            <verticalAlignment>left</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <fontPath>${fontLight}</fontPath>
+            <color>${greyUnfocused}</color>
             <zIndex>40</zIndex>
         </text>
         <video name="gamelist-background-video">
