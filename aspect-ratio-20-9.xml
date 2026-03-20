@@ -35,6 +35,7 @@
         <image name="metadata-background">
             <pos>0.076 0.820</pos>
             <size>0.230 0.0621</size>
+            <cornerRadius>0.0188</cornerRadius> 
         </image>
         <image name="media-screenshot">
         	<pos>0.830 0.730</pos>
@@ -49,8 +50,8 @@
             <maxSize>0.050 0.050</maxSize>
         </image>
         <image name="avatar-icon-online">
-            <pos>0.880 0.070</pos>
-            <size>0.007 0.017</size>
+            <pos>0.878 0.070</pos>
+            <size>0.006 0.013</size>
         </image>
     </view>
     
@@ -107,12 +108,12 @@
             <size>0 0.0278</size>
         </image>
         <text name="gamelist-metadata-playtime">
-            <pos>0.1730 0.820</pos>
+            <pos>0.1710 0.820</pos>
             <size>0.070 0.0278</size>
             <fontSize>${metadataFontSize}</fontSize>
         </text>
         <image name="gamelist-metadata-playcount-icon">
-            <pos>0.2480 0.820</pos>
+            <pos>0.253 0.820</pos>
             <size>0 0.0278</size>
         </image>
         <text name="gamelist-metadata-playcount">
@@ -125,7 +126,7 @@
             <size>0.0016 0.0611</size>
         </image>
         <image name="gamelist-metadata-middle-divider">
-            <pos>0.2400 0.820</pos>
+            <pos>0.246 0.820</pos>
             <size>0.0016 0.0611</size>
         </image>
         <badges name="gamelist-badges-right">
