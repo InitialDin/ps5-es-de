@@ -1,6 +1,6 @@
 <theme>
     	
-    <colorScheme name="mediavideo,mediascreenshot,mediavideo-audio,nomedia,backgroundvideo,backgroundvideo-screenshot">
+    <colorScheme name="mediavideo,mediascreenshot,mediavideo-audio,mediavideo-audio-screenshot,nomedia,backgroundvideo,backgroundvideo-screenshot">
         <variables>
         	<background>4C4C4C</background>
             <white>FFFFFF</white>
@@ -36,6 +36,16 @@
         <variables>
             <showMediaVideo>true</showMediaVideo>
             <showMediaScreenshot>false</showMediaScreenshot>
+            <playAudioOnly>999 999</playAudioOnly>
+            <showBackgroundVideo>false</showBackgroundVideo>
+            <showBackgroundArt>true</showBackgroundArt>
+        </variables>
+    </colorScheme>
+    
+    <colorScheme name="mediavideo-audio-screenshot">
+        <variables>
+            <showMediaVideo>true</showMediaVideo>
+            <showMediaScreenshot>true</showMediaScreenshot>
             <playAudioOnly>999 999</playAudioOnly>
             <showBackgroundVideo>false</showBackgroundVideo>
             <showBackgroundArt>true</showBackgroundArt>

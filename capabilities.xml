@@ -28,6 +28,9 @@
     <colorScheme name="mediavideo-audio">
         <label>Media Video (Audio Only)</label>
     </colorScheme>
+    <colorScheme name="mediavideo-audio-screenshot">
+        <label>Media Video (Audio Only + Screenshot)</label>
+    </colorScheme>
     <colorScheme name="nomedia">
         <label>No Media</label>
     </colorScheme>
