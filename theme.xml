@@ -30,7 +30,7 @@
             <defaultFolderImage>./_inc/system/icons/_default_sys.webp</defaultFolderImage>
             <staticImage>./_inc/system/icons/${system.theme}.webp</staticImage>
             <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
-            <unfocusedItemDimming>0.7</unfocusedItemDimming>
+            <unfocusedItemDimming>0.9</unfocusedItemDimming>
             <imageType>cover</imageType>
             <imageFit>cover</imageFit>
             <fastScrolling>true</fastScrolling>
@@ -41,7 +41,7 @@
         	<origin>0 0</origin>
         	<pos>0 0</pos>
             <cropSize>1 1</cropSize>
-            <color>${background}</color>
+            <color>4C4C4C</color>
             <path>./customizations/background.png</path>
          <zIndex>1</zIndex>
       </image>
@@ -78,7 +78,7 @@
             <origin>0 0.5</origin>
             <path>./_inc/system/logos/${system.theme}.png</path>
             <metadataElement>true</metadataElement>
-            <zIndex>30</zIndex>
+            <zIndex>40</zIndex>
         </image>
         <image name="metadata-background">
             <origin>0 0.5</origin>
@@ -87,7 +87,7 @@
             <cornerRadius>0.0188</cornerRadius> 
             <color>${grey}</color>
             <opacity>0.5</opacity>
-            <zIndex>52</zIndex>
+            <zIndex>40</zIndex>
         </image>
         <video name="media-video">
             <origin>0.5 0.5</origin>
@@ -101,14 +101,14 @@
             <delay>1</delay>
             <zIndex>21</zIndex>
             <visible>${showMediaVideo}</visible>
-            <zIndex>23</zIndex>
+            <zIndex>40</zIndex>
         </video>
         <image name="media-screenshot">
         	<origin>0.5 0.5</origin>
         	<imageType>screenshot</imageType>
         	<cornerRadius>0.010</cornerRadius>
         	<visible>${showMediaScreenshot}</visible>
-        	<zIndex>24</zIndex>
+        	<zIndex>40</zIndex>
         	</image>
         <helpsystem name="help-menu">
          <scope>menu</scope>
@@ -117,7 +117,7 @@
             <origin>0.5 0.5</origin>
             <path>./customizations/avatar.png</path>
             <cornerRadius>0.0188</cornerRadius> 
-            <zIndex>30</zIndex>
+            <zIndex>40</zIndex>
         </image>
         <image name="avatar-icon-online">
             <origin>0.5 0.5</origin>
@@ -125,7 +125,7 @@
             <tile>true</tile>
             <cornerRadius>1</cornerRadius>
             <color>${online}</color>
-            <zIndex>30</zIndex>
+            <zIndex>40</zIndex>
         </image>
     </view>
     
@@ -200,7 +200,7 @@
         <image name="system-marquee">
         	<origin>0.5 0.5</origin>
         	<path>./_inc/system/marquees/${system.theme}.svg</path>
-        	<zIndex>24</zIndex>
+        	<zIndex>32</zIndex>
         	</image>
         <text name="system-tab">
             <color>${white}</color>
@@ -249,10 +249,9 @@
             <delay>2</delay>
             <fadeInType>transparent</fadeInType>
             <fadeInTime>0.5</fadeInTime>
-            <color>${background}</color>
             <scrollFadeIn>true</scrollFadeIn>
             <visible>${showBackgroundVideo}</visible>
-            <zIndex>2</zIndex>
+            <zIndex>30</zIndex>
         </video>
         <image name="gamelist-background-art">
             <origin>0 0</origin>
@@ -260,10 +259,18 @@
             <cropSize>1 1</cropSize>
             <imageType>fanart,screenshot</imageType>
             <scrollFadeIn>true</scrollFadeIn>
-            <color>${background}</color>
             <visible>${showBackgroundArt}</visible>
-            <zIndex>2</zIndex>
+            <zIndex>30</zIndex>
         </image>
+        <image name="background-gradient">
+        	<origin>0 0</origin>
+        	<pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <color>080808</color>
+            <opacity>0.8</opacity>
+            <path>./_inc/images/background-gradient.svg</path>
+            <zIndex>31</zIndex>
+      </image>
         <text name="system-tab">
             <color>${greyUnfocused}</color>
             <fontPath>${fontLight}</fontPath>
@@ -276,7 +283,7 @@
             <origin>0 0.5</origin>
             <path>./_inc/images/icon-players.svg</path>
             <color>${white}</color>
-            <zIndex>60</zIndex>
+            <zIndex>45</zIndex>
         </image>
         <text name="gamelist-metadata-players">
             <origin>0 0.5</origin>
@@ -289,13 +296,13 @@
             <containerStartDelay>2</containerStartDelay>
             <fontPath>${fontMedium}</fontPath>
             <color>${white}</color>
-            <zIndex>60</zIndex>
+            <zIndex>45</zIndex>
         </text>
         <image name="gamelist-metadata-playcount-icon">
             <origin>0 0.5</origin>
             <path>./_inc/images/icon-playcount.svg</path>
             <color>${white}</color>
-            <zIndex>60</zIndex>
+            <zIndex>45</zIndex>
         </image>
         <text name="gamelist-metadata-playcount">
             <origin>0 0.5</origin>
@@ -307,13 +314,13 @@
             <containerStartDelay>2</containerStartDelay>
             <fontPath>${fontMedium}</fontPath>
             <color>${white}</color>
-            <zIndex>60</zIndex>
+            <zIndex>45</zIndex>
         </text>
         <image name="gamelist-metadata-playtime-icon">
             <origin>0 0.5</origin>
             <path>./_inc/images/icon-playtime.svg</path>
             <color>${white}</color>
-            <zIndex>60</zIndex>
+            <zIndex>45</zIndex>
         </image>
         <text name="gamelist-metadata-playtime">
             <origin>0 0.5</origin>
@@ -325,21 +332,21 @@
             <containerStartDelay>2</containerStartDelay>
             <fontPath>${fontMedium}</fontPath>
             <color>${white}</color>
-            <zIndex>60</zIndex>
+            <zIndex>45</zIndex>
         </text>
         <image name="gamelist-metadata-left-divider">
             <origin>0 0.5</origin>
             <path>${spaceImage}</path>
             <tile>true</tile>
             <color>${divider}</color>
-            <zIndex>52</zIndex>
+            <zIndex>45</zIndex>
         </image>
         <image name="gamelist-metadata-middle-divider">
             <origin>0 0.5</origin>
             <path>${spaceImage}</path>
             <tile>true</tile>
             <color>${divider}</color>
-            <zIndex>52</zIndex>
+            <zIndex>45</zIndex>
         </image>
         <badges name="gamelist-badges-right">
             <origin>0 0</origin>
@@ -354,7 +361,7 @@
             <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
             <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
             <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
-            <zIndex>40</zIndex>
+            <zIndex>45</zIndex>
         </badges>
         <badges name="gamelist-badges-left">
             <origin>0.8 0</origin>
@@ -363,12 +370,12 @@
             <lines>1</lines>
             <slots>altemulator</slots>
             <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-            <zIndex>40</zIndex>
+            <zIndex>45</zIndex>
         </badges>
         <image name="game-marquee">
         	<origin>0.5 0.5</origin>
         	<imageType>marquee</imageType>
-        	<zIndex>24</zIndex>
+        	<zIndex>40</zIndex>
         	</image>
     </view>
 

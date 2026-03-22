@@ -2,7 +2,6 @@
     	
     <colorScheme name="mediavideo,mediascreenshot,mediavideo-audio,mediavideo-audio-screenshot,nomedia,backgroundvideo,backgroundvideo-screenshot">
         <variables>
-        	<background>4C4C4C</background>
             <white>FFFFFF</white>
             <black>000000</black>
             <grey>7C7C7C</grey>
