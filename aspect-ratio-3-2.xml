@@ -36,13 +36,17 @@
             <pos>${playAudioOnly}</pos>
             <cropSize>0.250 0.280</cropSize>
         </video>
-        <image name="avatar-icon">
+        <image name="default-avatar-icon">
             <pos>0.830 0.050</pos>
             <maxSize>0.050 0.050</maxSize>
         </image>
         <image name="avatar-icon-online">
             <pos>0.840 0.070</pos>
             <size>0.007 0.010</size>
+        </image>
+        <image name="custom-avatar-icon">
+            <pos>0.830 0.050</pos>
+            <maxSize>0.050 0.050</maxSize>
         </image>
     </view>
     

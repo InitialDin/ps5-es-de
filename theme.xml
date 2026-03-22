@@ -68,7 +68,7 @@
         	<pos>0 0</pos>
             <cropSize>1 1</cropSize>
             <color>4C4C4C</color>
-            <path>./customizations/background.png</path>
+            <path>./_inc/images/background.png</path>
          <zIndex>1</zIndex>
       </image>
         <systemstatus name="system-status">
@@ -136,9 +136,9 @@
         	<visible>${showMediaScreenshot}</visible>
         	<zIndex>40</zIndex>
         	</image>
-        <image name="avatar-icon">
+        <image name="default-avatar-icon">
             <origin>0.5 0.5</origin>
-            <path>./customizations/avatar.png</path>
+            <path>./_inc/images/default-avatar.png</path>
             <cornerRadius>0.0188</cornerRadius> 
             <zIndex>40</zIndex>
         </image>
@@ -148,7 +148,13 @@
             <tile>true</tile>
             <cornerRadius>1</cornerRadius>
             <color>${online}</color>
-            <zIndex>40</zIndex>
+            <zIndex>42</zIndex>
+        </image>
+        <image name="custom-avatar-icon">
+            <origin>0.5 0.5</origin>
+            <path>./customizations/avatar.png</path>
+            <cornerRadius>0.0188</cornerRadius> 
+            <zIndex>41</zIndex>
         </image>
     </view>
     
