@@ -11,19 +11,45 @@
     <variables>
         <fontLight>./_inc/fonts/SSTLight.ttf</fontLight>
         <fontMedium>./_inc/fonts/SSTMedium.ttf</fontMedium>
+        <clockFontSize>0.0345</clockFontSize>
+        <carouselTitleFontSize>0.0360</carouselTitleFontSize>
+        <carouselTitleFontSizeLarge>0.0520</carouselTitleFontSizeLarge>
+        <metadataFontSize>0.0280</metadataFontSize>
+        <metadataFontSizeLarge>0.0410</metadataFontSizeLarge>
     </variables>
-
-    <fontSize name="small">
-        <variables>
-            <clockFontSize>0.0345</clockFontSize>
-            <carouselTitleFontSize>0.0360</carouselTitleFontSize>
-            <carouselTitleFontSizeLarge>0.0520</carouselTitleFontSizeLarge>
-            <metadataFontSize>0.0280</metadataFontSize>
-            <metadataFontSizeLarge>0.0410</metadataFontSizeLarge>
-        </variables>
-    </fontSize>
     
     <view name="system, gamelist">
+    	<helpsystem name="help-menu-view">
+         <scope>menu</scope>
+         <origin>0.5 1</origin>
+         <pos>0.5 0.9875</pos>
+         <iconColor>cccccc</iconColor>
+         <textColor>cccccc</textColor>
+         <backgroundColor>181818</backgroundColor>
+         <backgroundHorizontalPadding>0.01 0.01</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.015 0.02</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+         <entryRelativeScale>0.9</entryRelativeScale>
+      </helpsystem>
+    	<helpsystem name="help-left,help-right">
+         <fontPath>${fontLight}</fontPath>
+         <letterCase>capitalize</letterCase>
+         <iconColor>${white}</iconColor>
+         <textColor>${white}</textColor>
+         <entryRelativeScale>1</entryRelativeScale>
+         <entrySpacing>0.0130208</entrySpacing>
+         <iconTextSpacing>0.0065104</iconTextSpacing>
+         <fontSize>0.030</fontSize>
+         <scope>view</scope>
+      </helpsystem>
+      <helpsystem name="help-left">
+         <origin>0 1</origin>
+         <pos>0.0130208 0.9768519</pos>
+      </helpsystem>
+      <helpsystem name="help-right">
+         <origin>1 1</origin>
+         <pos>0.9869792 0.9768519</pos>
+      </helpsystem>
         <carousel name="system-carousel,gamelist-carousel">
             <origin>0 0</origin>
             <defaultImage>./_inc/system/icons/_default_game.webp</defaultImage>
@@ -110,9 +136,6 @@
         	<visible>${showMediaScreenshot}</visible>
         	<zIndex>40</zIndex>
         	</image>
-        <helpsystem name="help-menu">
-         <scope>menu</scope>
-      </helpsystem>
         <image name="avatar-icon">
             <origin>0.5 0.5</origin>
             <path>./customizations/avatar.png</path>
@@ -130,6 +153,12 @@
     </view>
     
         <view name="system">
+        	<helpsystem name="help-left">
+         <entries>start</entries>
+      </helpsystem>
+      <helpsystem name="help-right">
+         <entries>a</entries>
+      </helpsystem>
         	<text name="system-games-name">
         		<systemdata>fullname</systemdata>
         </text>
@@ -213,6 +242,12 @@
     </view>
     	
     <view name="gamelist">
+    	<helpsystem name="help-left">
+         <entries>b,back</entries>
+      </helpsystem>
+      <helpsystem name="help-right">
+         <entries>a,x,thumbstickclick</entries>
+      </helpsystem>
         <text name="system-games-name">
             <systemNameSuffix>false</systemNameSuffix>
             <metadata>name</metadata>

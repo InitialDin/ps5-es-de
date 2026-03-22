@@ -8,8 +8,6 @@
     <aspectRatio>3:2</aspectRatio>
 	<aspectRatio>20:9</aspectRatio>
     
-    <fontSize>small</fontSize>
-    
     <variant name="carousel-small">
       <label>Carousel - Small</label>
       <selectable>true</selectable>
@@ -41,4 +39,20 @@
         <label>Background Video (with Screenshot)</label>
     </colorScheme>
 
+    <transitions name="transitions">
+		<label>transitions</label>
+		<selectable>false</selectable>
+		<systemToSystem>instant</systemToSystem>
+		<systemToGamelist>instant</systemToGamelist>
+		<gamelistToGamelist>instant</gamelistToGamelist>
+		<gamelistToSystem>instant</gamelistToSystem>
+		<startupToSystem>fade</startupToSystem>
+		<startupToGamelist>fade</startupToGamelist>
+	</transitions>
+	<suppressTransitionProfiles>
+		<entry>builtin-instant</entry>
+		<entry>builtin-slide</entry>
+		<entry>builtin-fade</entry>
+	</suppressTransitionProfiles>
+    
 </themeCapabilities>
