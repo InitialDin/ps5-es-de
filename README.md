@@ -28,7 +28,7 @@ You can replace the default Avatar with your own by naming your custom image as 
 
 <h2>Preview</h2>
 
-| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/477455e1-8b33-4263-90c9-1ab0d2b9675a" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/643378b8-c5f9-4379-a3ab-8a37c4735a18" /> |
+| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0cbba733-c538-491b-aee8-0f01b0d84e16" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b8057a41-12fe-40b9-8e0d-a1eefbadf81c" /> |
 |---|---|
 | System View `16:9` , `Media Screenshot` , `Carousel - Small` | System View `16:9` , `Media Screenshot` , `Carousel - Large` |
 | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/88c5a796-ef63-430a-83fc-61cda9252202" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ccc10231-ed11-4f54-80c9-83dd29c5dc3c" /> |
