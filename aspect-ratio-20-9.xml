@@ -28,15 +28,13 @@
             <size>0.230 0.0621</size>
             <cornerRadius>0.0188</cornerRadius> 
         </image>
-        <image name="media-miximage">
-        	<pos>0.830 0.680</pos>
-        	<maxSize>0.410 0.410</maxSize>
-        </image>
         <image name="media-screenshot">
-        	<maxSize>0.250 0.3250</maxSize>
-            </image>
+        	<maxSize>0.260 0.380</maxSize>
+        	<pos>0.825 0.560</pos>
+        </image>
             <video name="media-video">
-            <cropSize>0.210 0.320</cropSize>
+            <cropSize>0.260 0.390</cropSize>
+            <pos>0.820 0.555</pos>
         </video>
         <image name="default-avatar-icon">
             <pos>0.870 0.050</pos>
@@ -151,9 +149,19 @@
             <fontSize>${metadataFontSize}</fontSize>
         </text>
         <image name="game-marquee">
-                <pos>0.195 0.575</pos>
-                <maxSize>0.210 0.215</maxSize>
-            </image>
+        	<pos>0.195 0.575</pos>
+        	<maxSize>0.210 0.215</maxSize>
+        </image>
+        <video name="media-video">
+        	<pos>0.850 0.680</pos>
+        </video>
+        <image name="media-screenshot">
+        	<pos>0.850 0.680</pos>
+        </image>
+        <image name="media-miximage">
+        	<pos>0.850 0.680</pos>
+        	<maxSize>0.410 0.410</maxSize>
+        </image>
     </view>
     
     <variant name="carousel-small">

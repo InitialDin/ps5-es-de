@@ -44,11 +44,11 @@
       </helpsystem>
       <helpsystem name="help-left">
          <origin>0 1</origin>
-         <pos>0.0130208 0.9768519</pos>
+         <pos>0.0170208 0.9768519</pos>
       </helpsystem>
       <helpsystem name="help-right">
          <origin>1 1</origin>
-         <pos>0.9869792 0.9768519</pos>
+         <pos>0.9779792 0.9768519</pos>
       </helpsystem>
         <carousel name="system-carousel,gamelist-carousel">
             <origin>0 0</origin>
@@ -133,14 +133,11 @@
             <imageType>none</imageType>
             <visible>${showMediaVideoSystem}</visible>
             <delay>1</delay>
-            <zIndex>21</zIndex>
-            <zIndex>40</zIndex>
         </video>
         <image name="media-screenshot">
         	<origin>0.5 0.5</origin>
         	<imageType>screenshot</imageType>
         	<cornerRadius>0.010</cornerRadius>
-        	<pos>0.830 0.700</pos>
         	<visible>${showMediaScreenshot}</visible>
         	<zIndex>40</zIndex>
         	</image>
@@ -201,11 +198,9 @@
             <gameselector>system-media-selector</gameselector>
             <delay>0.5</delay>
             <audio>false</audio>
-            <pos>0.825 0.600</pos>
         </video>
         <image name="media-screenshot">
         	<gameselector>system-media-selector</gameselector>
-        	<pos>0.825 0.600</pos>
         </image>
         <gameselector name="system-media-selector">
             <selection>lastplayed</selection>
@@ -412,8 +407,8 @@
         	<zIndex>40</zIndex>
         	</image>
         	<video name="media-video">
-            <pos>${mediaVideoPos}</pos>
             <visible>${showMediaVideoGamelist}</visible>
+            <zIndex>${MediaVideoAudioOnly}</zIndex>
         </video>
         <image name="media-miximage">
         	<origin>0.5 0.5</origin>
