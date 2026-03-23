@@ -415,6 +415,12 @@
             <pos>${mediaVideoPos}</pos>
             <visible>${showMediaVideoGamelist}</visible>
         </video>
+        <image name="media-miximage">
+        	<origin>0.5 0.5</origin>
+        	<imageType>miximage</imageType>
+        	<visible>${showMediaMixImage}</visible>
+        	<zIndex>40</zIndex>
+        	</image>
     </view>
 
 	<aspectRatio name="16:9">

@@ -28,6 +28,10 @@
             <size>0.230 0.0621</size>
             <cornerRadius>0.0188</cornerRadius> 
         </image>
+        <image name="media-miximage">
+        	<pos>0.830 0.680</pos>
+        	<maxSize>0.410 0.410</maxSize>
+        </image>
         <image name="media-screenshot">
         	<maxSize>0.250 0.3250</maxSize>
             </image>

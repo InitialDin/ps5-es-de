@@ -23,11 +23,17 @@
     <colorScheme name="mediascreenshot">
         <label>Media Screenshot</label>
     </colorScheme>
+    <colorScheme name="mediamiximage">
+        <label>Media Mix Image</label>
+    </colorScheme>
     <colorScheme name="mediavideo-audio">
         <label>Media Video (Audio Only)</label>
     </colorScheme>
     <colorScheme name="mediavideo-audio-screenshot">
         <label>Media Video (Audio Only + Screenshot)</label>
+    </colorScheme>
+    <colorScheme name="mediavideo-audio-miximage">
+        <label>Media Video (Audio Only + Mix Image)</label>
     </colorScheme>
     <colorScheme name="nomedia">
         <label>No Media</label>
@@ -37,6 +43,9 @@
     </colorScheme>
     <colorScheme name="backgroundvideo-screenshot">
         <label>Background Video (with Screenshot)</label>
+    </colorScheme>
+    <colorScheme name="backgroundvideo-miximage">
+        <label>Background Video (with Mix Image)</label>
     </colorScheme>
 
     <transitions name="transitions">
