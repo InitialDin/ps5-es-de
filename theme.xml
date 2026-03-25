@@ -104,7 +104,7 @@
             <origin>0 0.5</origin>
             <path>./_inc/system/logos/${system.theme}.png</path>
             <metadataElement>true</metadataElement>
-            <zIndex>40</zIndex>
+            <zIndex>39</zIndex>
         </image>
         <image name="metadata-background,metadata-lastplayed-background">
             <origin>0 0.5</origin>
