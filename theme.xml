@@ -50,14 +50,26 @@
          <origin>1 1</origin>
          <pos>0.9779792 0.9768519</pos>
       </helpsystem>
-        <image name="background-wallpaper">
+        <image name="background-static">
         	<origin>0 0</origin>
         	<pos>0 0</pos>
             <cropSize>1 1</cropSize>
-            <color>4C4C4C</color>
-            <path>./_inc/images/background.png</path>
+            <color>b3b3b3</color>
+            <path>./_inc/images/background-static.png</path>
          <zIndex>1</zIndex>
       </image>
+      <video name="background-video">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <cropSize>1 1</cropSize>
+         <path>./_inc/images/background-video.mp4</path>
+         <fadeInTime>0</fadeInTime>
+         <audio>false</audio>
+         <zIndex>1</zIndex>
+         <color>b3b3b3</color>
+         <stationary>always</stationary>
+         <visible>true</visible>
+      </video>
         <systemstatus name="system-status">
         	<origin>1 0.5</origin>
             <fontPath>${fontLight}</fontPath>
