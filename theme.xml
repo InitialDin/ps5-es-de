@@ -128,6 +128,7 @@
             <imageCornerRadius>0.010</imageCornerRadius>
             <videoCornerRadius>0.010</videoCornerRadius>
             <fadeInType>black</fadeInType>
+			<pillarboxes>false</pillarboxes>
             <fadeInTime>0.5</fadeInTime>
             <imageType>none</imageType>
             <visible>${showMediaVideoSystem}</visible>
