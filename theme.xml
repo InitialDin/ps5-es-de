@@ -450,7 +450,8 @@
          <type>vertical</type>
          <defaultImage>./_inc/system/icons/_default_game.webp</defaultImage>
          <defaultFolderImage>./_inc/system/icons/_default_sys.webp</defaultFolderImage>
-         <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+         <unfocusedItemOpacity>1</unfocusedItemOpacity>
+		 <unfocusedItemDimming>0.7</unfocusedItemDimming>
          <textColor>${white}</textColor>
          <textBackgroundColor>${grey}</textBackgroundColor>
          <fontPath>${fontMedium}</fontPath>
@@ -458,6 +459,16 @@
          <fastScrolling>true</fastScrolling>
          <zIndex>39</zIndex>
       </carousel>
+	<image name="back-arrow">
+         <origin>0.5 0.5</origin>
+		 <pos>0.05 0.5</pos>
+         <maxSize>0.1 0.1</maxSize>
+         <path>./_inc/images/icon-arrow.svg</path>
+         <color>${iconColor}</color>
+         <metadataElement>true</metadataElement>
+         <stationary>withinView</stationary>
+         <zIndex>50</zIndex>
+      </image>
       <video name="media-video">
       	<visible>${showMediaVideoXMB}</visible>
       	<zIndex>${MediaVideoAudioOnly}</zIndex>
