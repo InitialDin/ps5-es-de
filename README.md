@@ -13,15 +13,17 @@ You can replace the default Avatar with your own by naming your custom image as 
 
 * `Theme Aspect Ratio` - Sets the aspect ratio that the theme will render at. This should happen automatically but if needed, this can be changed manually to match the aspect ratio of your screen. `16:9` , `16:10` , `4:3` , `3:2` and `20:9` are supported
 
-* `Theme Variant` - There are 8 theme variants to choose from
-  * `Carousel - Small`
-  * `Carousel - Large`
-  * `Carousel - Small | XMB (Cover)`
-  * `Carousel - Small | XMB (Marquee)`
-  * `Carousel - Small | XMB (Physical Media)`
-  * `Carousel - Large | XMB (Cover)`
-  * `Carousel - Large | XMB (Marquee)`
-  * `Carousel - Large | XMB (Physical Media)`
+* `Theme Variant` - There are 10 theme variants to choose from
+  * `Carousel (Small)`
+  * `Carousel (Large)`
+  * `Carousel (Small) + XMB (Cover)`
+  * `Carousel (Small) + XMB (Marquee)`
+  * `Carousel (Small) + XMB (Minimal)`
+  * `Carousel (Small) + XMB (Physical Media)`
+  * `Carousel (Large) + XMB (Cover)`
+  * `Carousel (Large) + XMB (Minimal)`
+  * `Carousel (Large) + XMB (Marquee)`
+  * `Carousel (Large) + XMB (Physical Media)`
  
 * `Theme Color Scheme` - This lets you pick what you want to see on your system and gamelist view
   * `Media - Video` - Displays your scraped game videos on the right (system and gamelist view)
@@ -37,28 +39,11 @@ You can replace the default Avatar with your own by naming your custom image as 
 
 <h2>Preview</h2>
 
-| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0cbba733-c538-491b-aee8-0f01b0d84e16" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b8057a41-12fe-40b9-8e0d-a1eefbadf81c" /> |
+| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0cbba733-c538-491b-aee8-0f01b0d84e16" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/88c5a796-ef63-430a-83fc-61cda9252202" /> |
 |---|---|
-| System View `16:9` , `Media Screenshot` , `Carousel - Small` | System View `16:9` , `Media Screenshot` , `Carousel - Large` |
-| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/88c5a796-ef63-430a-83fc-61cda9252202" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ccc10231-ed11-4f54-80c9-83dd29c5dc3c" /> |
-| Gamelist View `16:9` , `Media Screenshot` , `Carousel - Large` | Gamelist View `16:9` , `Media Screenshot` , `Carousel - Large` |
-
-| <img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/16847656-9461-497f-ac5b-bca41e6f6350" /> | <img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/9e8f96a2-2fa9-457a-8556-470c27ed96de" /> |
-|---|---|
-| Gamelist View `16:10` , `Media Video` , `Carousel - Small` | Gamelist View `16:10` , `Media Video` , `Carousel - Large` |
-
-| <img width="1440" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9f2ec9de-1668-4266-8eed-00a1e943beb4" /> | <img width="1440" height="1080" alt="Image" src="https://github.com/user-attachments/assets/67eb6316-43ff-4ff7-8b76-b846680100a0" /> |
-|---|---|
-| Gamelist View `4:3` , `Media Video` , `Carousel - Small` | Gamelist View `4:3` , `Media Video` , `Carousel - Large` |
-
-| <img width="1440" height="960" alt="Image" src="https://github.com/user-attachments/assets/4151be8d-519c-4db3-aaf8-7144607b557a" /> | <img width="1440" height="960" alt="Image" src="https://github.com/user-attachments/assets/ba67b20a-cc87-445a-be8e-7fdc77f8a4ec" /> |
-|---|---|
-| Gamelist View `3:2` , `Media Video` , `Carousel - Small` | Gamelist View `3:2` , `Media Video` , `Carousel - Large` |
-
-| <img width="2400" height="1080" alt="Image" src="https://github.com/user-attachments/assets/104bcff9-711c-4d69-aa7c-ace8fa9fab35" /> | <img width="2400" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0255c161-d081-47e9-9e2c-dec64ec780b0" /> |
-|---|---|
-| Gamelist View `20:9` , `Media Screenshot` , `Carousel - Small` | Gamelist View `20:9` , `Media Screenshot` , `Carousel - Large` |
-
+| System View `16:9` , `Media - Screenshot` , `Carousel (Small)` | Gamelist View `16:9` , `Media - Screenshot` , `Carousel (Small)` |
+| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/40e0fe62-d60f-4ecd-84dd-87c567708284" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/85d33e49-850e-4549-bbc4-3047b86940ac" /> |
+| Gamelist View `16:9` , `Media - Video` , `Carousel (Small) + XMB (Marquee)` | Gamelist View `16:9` , `Media - Video` , `Carousel (Small) + XMB (Minimal)` |
 
 <h2>Credits</h2>
 
