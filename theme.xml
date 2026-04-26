@@ -436,7 +436,7 @@
         </view>
    </variant>
         
-    <variant name="carousel-xmb-cover-small,carousel-xmb-marquee-small,carousel-xmb-physicalmedia-small,carousel-xmb-cover-large,carousel-xmb-marquee-large,carousel-xmb-physicalmedia-large">
+    <variant name="carousel-xmb-cover-small,carousel-xmb-min-small,carousel-xmb-marquee-small,carousel-xmb-physicalmedia-small,carousel-xmb-cover-large,carousel-xmb-min-large,carousel-xmb-marquee-large,carousel-xmb-physicalmedia-large">
       <view name="gamelist">
         <carousel name="carousel-xmb">
          <origin>0.5 0</origin>
@@ -478,14 +478,14 @@
         </view>
    </variant>
    
-   <variant name="carousel-xmb-cover-small,carousel-xmb-cover-large">
+   <variant name="carousel-xmb-cover-small,carousel-xmb-min-small,,carousel-xmb-cover-large,carousel-xmb-min-large">
       <view name="gamelist">
         <carousel name="carousel-xmb">
          <imageType>cover</imageType>
       </carousel>
         </view>
    </variant>
-
+   
    <variant name="carousel-xmb-marquee-small,carousel-xmb-marquee-large">
       <view name="gamelist">
         <carousel name="carousel-xmb">
@@ -494,6 +494,20 @@
       <image name="game-marquee">
         	<visible>false</visible>
         	</image>
+      </view>
+   </variant>
+
+   <variant name="carousel-xmb-min-small,carousel-xmb-min-large">
+      <view name="gamelist">
+        <text name="system-games-name">
+            <visible>false</visible>
+        </text>
+        <image name="gamesystem-logo">
+            <visible>false</visible>
+        </image>
+        <badges name="gamelist-badges">
+            <horizontalAlignment>right</horizontalAlignment>
+        </badges>
       </view>
    </variant>
    

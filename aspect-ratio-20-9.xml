@@ -267,7 +267,7 @@
         </view>
    </variant>
    
-   <variant name="carousel-xmb-cover-small,carousel-xmb-marquee-small,carousel-xmb-physicalmedia-small">
+   <variant name="carousel-xmb-cover-small,carousel-xmb-min-small,carousel-xmb-marquee-small,carousel-xmb-physicalmedia-small">
    	<view name="system">
         <carousel name="system-carousel">
             <pos>0 0</pos>
@@ -284,7 +284,7 @@
         </view>
    </variant>
    
-   <variant name="carousel-xmb-cover-large,carousel-xmb-marquee-large,carousel-xmb-physicalmedia-large">
+   <variant name="carousel-xmb-cover-large,carousel-xmb-min-large,carousel-xmb-marquee-large,carousel-xmb-physicalmedia-large">
       <view name="system">
         <carousel name="system-carousel">
             <pos>0 0.030</pos>
@@ -315,7 +315,7 @@
         </view>
    </variant>
    
-   <variant name="carousel-xmb-cover-small,carousel-xmb-marquee-small,carousel-xmb-physicalmedia-small,carousel-xmb-cover-large,carousel-xmb-marquee-large,carousel-xmb-physicalmedia-large">
+   <variant name="carousel-xmb-cover-small,carousel-xmb-min-small,carousel-xmb-marquee-small,carousel-xmb-physicalmedia-small,carousel-xmb-cover-large,carousel-xmb-min-large,carousel-xmb-marquee-large,carousel-xmb-physicalmedia-large">
       <view name="gamelist">
         <carousel name="carousel-xmb">
         	<pos>0.25 0</pos>
@@ -391,4 +391,51 @@
         </badges>
         </view>
    </variant>
+   
+   <variant name="carousel-xmb-min-small,carousel-xmb-min-large">
+      <view name="gamelist">
+        <image name="game-marquee">
+        	<pos>0.845 0.610</pos>
+        	<maxSize>0.310 0.310</maxSize>
+        </image>
+        <image name="media-screenshot">
+        	<pos>0.855 0.580</pos>
+        </image>
+        <image name="media-miximage">
+        	<pos>0.855 0.560</pos>
+        	<maxSize>0.410 0.410</maxSize>
+        </image>
+        <image name="metadata-background">
+            <pos>0.740 0.820</pos>
+        </image>
+        <image name="gamelist-metadata-players-icon">
+            <pos>0.750 0.820</pos>
+        </image>
+        <text name="gamelist-metadata-players">
+            <pos>0.768 0.820</pos>
+        </text>
+        <image name="gamelist-metadata-playtime-icon">
+            <pos>0.816 0.820</pos>
+        </image>
+        <text name="gamelist-metadata-playtime">
+            <pos>0.834 0.820</pos>
+        </text>
+        <image name="gamelist-metadata-playcount-icon">
+            <pos>0.916 0.820</pos>
+        </image>
+        <text name="gamelist-metadata-playcount">
+            <pos>0.933 0.820</pos>
+        </text>
+        <image name="gamelist-metadata-left-divider">
+            <pos>0.808 0.820</pos>
+        </image>
+        <image name="gamelist-metadata-middle-divider">
+            <pos>0.909 0.820</pos>
+        </image>
+        <badges name="gamelist-badges">
+            <pos>0.700 0.865</pos>
+        </badges>
+        </view>
+   </variant>
+   
 </theme>
