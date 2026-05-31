@@ -427,6 +427,7 @@
             <color>00000000</color>
 			<fastScrolling>true</fastScrolling>
             <defaultImage>./_inc/system/icons/_default_game.webp</defaultImage>
+			<defaultFolderImage>./_inc/system/icons/_default_sys.webp</defaultFolderImage>
             <unfocusedItemOpacity>0.9</unfocusedItemOpacity>
         </carousel>
         <video name="media-video">
